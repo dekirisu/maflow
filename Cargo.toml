@@ -1,0 +1,9 @@
+[package]
+name = "maflow"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Dekirisu <dekirisu@gmail.com>"]
+description = "Flow macros: basically unwrap for return, continue and break"
+keywords = ["macro","unwrap","flow"]
+categories = ["development-tools","rust-patterns"]
