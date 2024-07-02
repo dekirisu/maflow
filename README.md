@@ -17,9 +17,12 @@ Simple **Ma**cros, changing the **flow** of development:
 - **`hold!( flow )`** breaks
 
 **Flow** can be:
-1. Option `..!{ inner = option }` same as `let Some(inner) = option else {..}`
-1. Result `..!{ inner = result }` same as `let Ok(inner) = result else {..}`
-1. bool `..!{ if bool }` same as `if bool {..}`
+1. **Option** `..!{ inner = option }` same as `let Some(inner) = option else {..}`
+    - `..!{ ?option }` same as `if option.is_none() {..}`
+2. **Result** `..!{ inner = result }` same as `let Ok(inner) = result else {..}`
+    - `..!{ ?result }` same as `if result.is_err() {..}`
+4. **bool** `..!{ if bool }` same as `if bool {..}`
+5. **custom** `..!{ *Some(inner) = option }` same as `let Some(inner) = option else {..}`
 
 ## Example
 ```toml
