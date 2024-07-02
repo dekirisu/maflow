@@ -17,8 +17,8 @@ Simple **Ma**cros, changing the **flow** of development:
 - **`hold!( flow )`** breaks
 
 **Flow** can be:
-1. Option `..!{ inner = option }` same as `if Some(inner) = option {..}`
-1. Result `..!{ inner = result }` same as `if Ok(inner) = option {..}`
+1. Option `..!{ inner = option }` same as `let Some(inner) = option else {..}`
+1. Result `..!{ inner = result }` same as `let Ok(inner) = result else {..}`
 1. bool `..!{ if bool }` same as `if bool {..}`
 
 ## Example
