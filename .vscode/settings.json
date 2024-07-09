@@ -1,0 +1,61 @@
+{
+    "highlight.regexFlags": "g",
+    "highlight.regexes": {
+      /* ------------------------- highlight maflow macros ------------------------ */
+        "(exit!)":[{
+          "color": "#ff0000",
+          "before": {"contentText":"❌"}
+        }],
+        "(next!)":[{
+          "color": "#ff0000",
+          "before": {"contentText":"⭕"}
+        }],      
+        "(hold!)":[{
+          "color": "#ff0000",
+          "before": {"contentText":"🔻"}
+        }],     
+        "(kill!)":[{
+          "color": "#ff0000",
+          "before": {"contentText":"⛔"}
+        }],
+
+      /* --------------------------- highlight keywords --------------------------- */
+        // "(return)":[{
+        //   "color": "#ff0000",
+        //   "before": {"contentText":"❌"}
+        // }], 
+        // "(continue)":[{
+        //   "color": "#ff0000",
+        //   "before": {"contentText":"⭕"}
+        // }],
+        // "(break)":[{
+        //   "color": "#ff0000",
+        //   "before": {"contentText":"🔻"}
+        // }],  
+        // "(\\)\\?)":[{
+        //   "color": "#ff0000",
+        //   "after": {"contentText":"❌"},
+        // }],    
+
+      /* -------------------------- highlight std macros -------------------------- */
+        // "(todo!)":[{
+        //   "color": "#ff0000",
+        //   "before": {"contentText":"⛔"}
+        // }],
+        // "(panic!)":[{
+        //   "color": "#ff0000",
+        //   "before": {"contentText":"⛔"}
+        // }],
+        // "(kill!)":[{
+        //   "color": "#ff0000",
+        //   "before": {"contentText":"⛔"}
+        // }],   
+      
+      /* ----------------------------- highlight misc ----------------------------- */
+        // "(unwrap\\(\\))":[{
+        //   "color": "#ff0000",
+        //   "after": {"contentText":"⛔"}
+        // }],
+
+    }, 
+}
